@@ -71,7 +71,7 @@ export default function App() {
 
     <View style={styles.container}>
       <View style={styles.display}>
-  <Text style={styles.displayText}>{value}</Text>  
+  <Text style={styles.displayText}>{currentValue}</Text>  
       </View>
       <View style={styles.buttonsArea}>
         <View style={styles.row}>
@@ -138,14 +138,6 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     paddingTop: 10
-  },
-  btn: {
-    width:80,
-    height:80,
-    borderRadius: 40,
-    backgroundColor: 'orange',
-    justifyContent: 'center',
-    alignItems: 'center',  
   },
   zero: {
     width: 160,
